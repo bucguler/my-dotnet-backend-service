@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "SCWHKNqM060=",
+  "success": true,
+  "projectFilePath": "/Users/burak.ucguler/dotNetProjects/LearnContainer/welcome-to-docker/my-dotnet-backend-service/my-dotnet-backend-service.csproj",
+  "expectedPackageFiles": [
+    "/Users/burak.ucguler/.nuget/packages/microsoft.aspnetcore.jsonpatch/8.0.0/microsoft.aspnetcore.jsonpatch.8.0.0.nupkg.sha512",
+    "/Users/burak.ucguler/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/8.0.0/microsoft.aspnetcore.mvc.newtonsoftjson.8.0.0.nupkg.sha512",
+    "/Users/burak.ucguler/.nuget/packages/microsoft.aspnetcore.openapi/8.0.0/microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
+    "/Users/burak.ucguler/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/burak.ucguler/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/burak.ucguler/.nuget/packages/microsoft.openapi/1.6.23/microsoft.openapi.1.6.23.nupkg.sha512",
+    "/Users/burak.ucguler/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/burak.ucguler/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "/Users/burak.ucguler/.nuget/packages/swashbuckle.aspnetcore/8.0.0/swashbuckle.aspnetcore.8.0.0.nupkg.sha512",
+    "/Users/burak.ucguler/.nuget/packages/swashbuckle.aspnetcore.swagger/8.0.0/swashbuckle.aspnetcore.swagger.8.0.0.nupkg.sha512",
+    "/Users/burak.ucguler/.nuget/packages/swashbuckle.aspnetcore.swaggergen/8.0.0/swashbuckle.aspnetcore.swaggergen.8.0.0.nupkg.sha512",
+    "/Users/burak.ucguler/.nuget/packages/swashbuckle.aspnetcore.swaggerui/8.0.0/swashbuckle.aspnetcore.swaggerui.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

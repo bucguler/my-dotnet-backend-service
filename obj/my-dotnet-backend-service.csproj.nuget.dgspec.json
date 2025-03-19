@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/burak.ucguler/dotNetProjects/LearnContainer/welcome-to-docker/my-dotnet-backend-service/my-dotnet-backend-service.csproj": {}
+  },
+  "projects": {
+    "/Users/burak.ucguler/dotNetProjects/LearnContainer/welcome-to-docker/my-dotnet-backend-service/my-dotnet-backend-service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/burak.ucguler/dotNetProjects/LearnContainer/welcome-to-docker/my-dotnet-backend-service/my-dotnet-backend-service.csproj",
+        "projectName": "my-dotnet-backend-service",
+        "projectPath": "/Users/burak.ucguler/dotNetProjects/LearnContainer/welcome-to-docker/my-dotnet-backend-service/my-dotnet-backend-service.csproj",
+        "packagesPath": "/Users/burak.ucguler/.nuget/packages/",
+        "outputPath": "/Users/burak.ucguler/dotNetProjects/LearnContainer/welcome-to-docker/my-dotnet-backend-service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/burak.ucguler/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
