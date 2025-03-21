@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
-using my_dotnet_backend_service; // Add this using directive to reference the Startup class
 
 namespace my_dotnet_backend_service
 {
@@ -16,6 +15,7 @@ namespace my_dotnet_backend_service
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    webBuilder.UseUrls("http://*:80"); // Ensure the application listens on HTTP
                 });
     }
 }

@@ -6,7 +6,7 @@ namespace my_dotnet_backend_service.Services
 {
     public class WeatherService
     {
-        public IEnumerable<WeatherForecast> GetForecast()
+        public virtual IEnumerable<WeatherForecast> GetForecast()
         {
             var rng = new Random();
             return new List<WeatherForecast>

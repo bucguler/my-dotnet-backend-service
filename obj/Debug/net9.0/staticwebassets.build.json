@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "Y8G1jh55CBWO5iNv4pzj/3s8eOUAll8Mv1FbC0S8a2U=",
+  "Hash": "/JtHyP2BKT/pVIl6h7qRV47pN2+Gw88ZG+q3WeiPbGc=",
   "Source": "my-dotnet-backend-service",
   "BasePath": "_content/my-dotnet-backend-service",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "my-dotnet-backend-service/wwwroot",
+      "Source": "my-dotnet-backend-service",
+      "ContentRoot": "/Users/burak.ucguler/dotNetProjects/LearnContainer/welcome-to-docker/my-dotnet-backend-service/wwwroot/",
+      "BasePath": "_content/my-dotnet-backend-service",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [],
   "Endpoints": []
 }

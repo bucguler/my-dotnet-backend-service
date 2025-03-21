@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using my_dotnet_backend_service.Models; // Corrected using directive to reference the WeatherForecast class
-using my_dotnet_backend_service.Services; // Corrected using directive to reference the WeatherService class
+using my_dotnet_backend_service.Models;
+using my_dotnet_backend_service.Services;
 
 namespace my_dotnet_backend_service.Controllers
 {
@@ -17,9 +17,10 @@ namespace my_dotnet_backend_service.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<WeatherForecast> Get()
+        public ActionResult<IEnumerable<WeatherForecast>> Get()
         {
-            return _weatherService.GetForecast();
+            var forecasts = _weatherService.GetForecast();
+            return Ok(forecasts);
         }
     }
 }

@@ -39,3 +39,4 @@
 /Users/burak.ucguler/dotNetProjects/LearnContainer/welcome-to-docker/my-dotnet-backend-service/obj/Debug/net9.0/my-dotnet-backend-service.pdb
 /Users/burak.ucguler/dotNetProjects/LearnContainer/welcome-to-docker/my-dotnet-backend-service/obj/Debug/net9.0/my-dotnet-backend-service.genruntimeconfig.cache
 /Users/burak.ucguler/dotNetProjects/LearnContainer/welcome-to-docker/my-dotnet-backend-service/obj/Debug/net9.0/ref/my-dotnet-backend-service.dll
+/Users/burak.ucguler/dotNetProjects/LearnContainer/welcome-to-docker/my-dotnet-backend-service/bin/Debug/net9.0/my-dotnet-backend-service.staticwebassets.runtime.json

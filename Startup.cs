@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using my_dotnet_backend_service.Services; // Add this using directive to reference the WeatherService class
+using my_dotnet_backend_service.Services;
 
 namespace my_dotnet_backend_service
 {
@@ -31,11 +31,16 @@ namespace my_dotnet_backend_service
             else
             {
                 app.UseExceptionHandler("/Home/Error");
-                app.UseHsts();
+                app.UseHsts(); // Use HSTS in production
             }
 
-            app.UseHttpsRedirection();
+            // Remove HTTPS redirection
+            // app.UseHttpsRedirection(); 
+
+            app.UseStaticFiles();
+
             app.UseRouting();
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

@@ -15,7 +15,7 @@ FROM mcr.microsoft.com/dotnet/aspnet:9.0
 WORKDIR /app
 COPY --from=build-env /app/out .
 
-# Expose port 80
+# Expose port 80 for HTTP
 EXPOSE 80
 
 # Set the entry point for the application
